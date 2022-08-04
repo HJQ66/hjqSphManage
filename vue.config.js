@@ -49,7 +49,7 @@ module.exports = {
       '/prod-api':{
         target: 'http://sph-h5-api.atguigu.cn',
         // target: 'http://39.98.123.211',
-        pathRewrite: { '^/dev-api': '' }
+        pathRewrite: { '^/prod-api': '' }
       }
     }
   },
